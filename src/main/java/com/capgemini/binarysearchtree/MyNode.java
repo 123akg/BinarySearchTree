@@ -42,5 +42,4 @@ public class MyNode<K extends Comparable<K>> implements INode<K> {
 	public INode getRight() {
 		return this.right;
 	}
-
 }
