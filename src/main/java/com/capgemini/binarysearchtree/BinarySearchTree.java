@@ -33,5 +33,4 @@ public class BinarySearchTree<K extends Comparable<K>> {
 			return 0;
 		return 1 + getSizeRecursively(currentRoot.getLeft()) + getSizeRecursively(currentRoot.getRight());
 	}
-
 }

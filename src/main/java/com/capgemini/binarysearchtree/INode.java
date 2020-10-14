@@ -14,4 +14,5 @@ public interface INode<K> {
 	public INode getRight();
 
 
+
 }
